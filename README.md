@@ -41,7 +41,7 @@ This is a promotional website for **Jarvis**, your personal AI voice assistant b
 1. Push the website folder to your GitHub repository  
 2. Go to `Settings > Pages`  
 3. Select the `main` branch and `/root` as the source  
-4. Visit: `https://yourusername.github.io/Jarvis/website/`
+4. Visit: `https://yourusername.github.io/Jarvis/website/` to view your customized website.
 
 ## Author
 
