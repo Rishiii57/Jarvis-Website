@@ -1,0 +1,68 @@
+h1{
+    color:grey;
+    text-shadow: 0px 1px 0px white;
+}
+.titlee{
+    color:white;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 0.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(ChatGPT\ Image\ Jul\ 3\,\ 2025\,\ 04_22_57\ PM-Photoroom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+    color: white ;
+}   
+
+#ding{
+    color: white ;
+    padding: 100px ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(WhatsApp\ Image\ 2025-07-04\ at\ 04.08.11_1b7bc600-Photoroom.png);
+    font-family: cursive;
+    
+}
+.large-heading {
+    color :white ;
+    font-family: 'Openinghourssans', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: -70px;
+}
+
+
+
+
+
+a{
+    color: grey;
+}
+a:hover,a:focus-visible{
+    color: aqua;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border: 1px solid #00ffff;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 60px auto;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.copyright{
+    text-align: center;
+}
+

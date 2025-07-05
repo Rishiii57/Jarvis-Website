@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="stylee.css" rel="stylesheet">
+    <title>Jarvis - Your AI Assistant</title>
+</head>
+<body>
+    <header>
+        <section id="ding">
+            <h1 class="large-heading" style="text-shadow: 0 0 30px rgb(212, 133, 54), 0 0 30px black;">JARVIS</h1>
+            <br>
+            <h1 class="titlee">WELCOMES YOU</h1>
+            <h1 class="titlee">TO THE MODERN WORLD OF AI</h1>
+        </section>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <h1>Introduction to Jarvis</h1>
+            <h3>Meet Jarvis – Your Personal Voice Assistant Built with Python</h3>
+            <p>Jarvis is a lightweight, offline-capable voice assistant designed to perform everyday tasks with just your voice. Inspired by the virtual assistant from Iron Man, Jarvis responds to natural language commands to open websites, provide real-time updates, and much more.</p>
+            <p>Whether you want to check the weather, hear the latest news, or play your favorite music, Jarvis makes it hands-free and hassle-free.</p>
+        </div>
+
+        <div class="content-box">
+            <h1>What can Jarvis do?</h1>
+            <h3>Jarvis is packed with smart, practical features to enhance your daily workflow:</h3>
+            <ul>
+                <li><strong>Voice Recognition</strong> – Just speak, and Jarvis listens using real-time speech recognition.</li>
+                <li><strong>Text-to-Speech</strong> – Jarvis talks back to you with natural-sounding speech via pyttsx3.</li>
+                <li><strong>Web Browsing</strong> – Open websites like Google, YouTube, or any custom link by voice.</li>
+                <li><strong>Play Music</strong> – Launch songs on YouTube based on your request (via musiclib).</li>
+                <li><strong>Weather Updates</strong> – Get current weather conditions using location-based API data.</li>
+                <li><strong>Latest News</strong> – Jarvis reads out top news headlines powered by the News API.</li>
+                <li><strong>Offline Fallback</strong> – Most features work with minimal internet usage or completely offline.</li>
+            </ul>
+            <p>All of this runs smoothly in the background — no need to touch your keyboard or screen.</p>
+        </div>
+
+        <div class="content-box">
+            <h1>How It Works – Technical Breakdown</h1>
+            <h3>Jarvis is built entirely in Python, using a combination of popular libraries and APIs. Here's what powers it:</h3>
+            <ul>
+                <li><strong>speech_recognition</strong>: Captures and converts your voice input to text using Google Speech API.</li>
+                <li><strong>pyttsx3</strong>: Converts text responses to speech, supporting offline TTS engines.</li>
+                <li><strong>webbrowser</strong>: Opens user-specified URLs in your default browser.</li>
+                <li><strong>requests</strong>: Fetches data from online APIs (weather, news, etc.).</li>
+                <li><strong>dotenv</strong>: Manages API keys securely through a .env configuration file.</li>
+                <li><strong>Custom modules like musiclib.py</strong>: Handles YouTube search and playback.</li>
+            </ul>
+            <p>Jarvis follows a simple flow: Listen → Understand → Act → Speak. It’s clean, customizable, and easy to expand with new commands.</p>
+        </div>
+
+        <div class="content-box">
+            <h1>How to Use Jarvis</h1>
+            <h3>Getting started with Jarvis is easy! Follow these steps to run your personal voice assistant:</h3>
+            <ol>
+                <li><strong>Clone the Repository:</strong><br>git clone https://github.com/Rishiii57/Jarvis.git</li>
+                <li><strong>Install Required Libraries:</strong><br>pip install -r requirements.txt</li>
+                <li><strong>Add API Keys:</strong><br>Create a .env file in the root directory and add your API keys (e.g., Weather, News).</li>
+                <li><strong>Run Jarvis</strong><br>Speak "Jarvis" to activate, then speak your command and let Jarvis handle the rest!</li>
+            </ol>
+            <p>Example voice commands you can try:</p>
+            <ul>
+                <li>🗣 “What's the weather today?”</li>
+                <li>🗣 “Open YouTube”</li>
+                <li>🗣 “Play Never Gonna Give You Up”</li>
+                <li>🗣 “Tell me the latest news”</li>
+            </ul>
+        </div>
+
+        <div class="content-box">
+            <h1>Demo – Watch Jarvis in Action</h1>
+            <p>Here's a quick look at what Jarvis can do:</p>
+            <video src="Screen Recording 2025-07-04 222129.mp4" width="500" controls>
+                Your browser does not support this video format.
+            </video>
+            <p>Jarvis responding to a “What is the weather” voice command</p>
+        </div>
+
+        <div class="content-box">
+            <h2>Download – GitHub Link</h2>
+            <p>Visit the GitHub Repository:</p>
+            <p>➡️ <a href="https://github.com/Rishiii57/Jarvis.git" target="_blank">https://github.com/Rishiii57/Jarvis.git</a></p>
+            <p>Fork it, star it ⭐, or contribute your own features!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+        <p>© 2025 Jarvis by Rishiii57. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
